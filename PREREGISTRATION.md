@@ -150,7 +150,7 @@ The core table reports, for each manipulation (exact repeat / meaningless field 
 
 ## Deviations
 
-Corrected at 2026-10-01T05:32:13Z after an independent review (run record review-verdict.md), which found the first two entries inaccurate. The original wording is in git history (commit 740a760).
+Corrected at 2026-10-01T05:32:13Z after an independent review (two rounds, summarized in docs/REVIEWS.md), which found the first two entries inaccurate. The original wording is in git history (commit 740a760).
 
 1. **Retry list (process).** 7 of the 1,500 noise calls returned HTTP 520 (a Cloudflare edge error) and were not retried, because 520 was missing from the client's retry list.
    - 520 to 523 were added to `src/jev_client.py`. The file was modified at 04:54:48Z, during the noise phase and 9 s before the main phase began (04:54:57Z). The main phase therefore ran with the fix.
