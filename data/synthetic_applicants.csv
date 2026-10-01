@@ -1,0 +1,1001 @@
+applicant_id,stratum,income,dti,credit_idx,employment_idx,bank_idx,credit,employment,bank
+M0001,strong,116000,21,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0002,strong,188000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0003,strong,164000,11,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0004,strong,111000,18,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0005,strong,112000,10,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0006,strong,119000,24,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0007,strong,170000,24,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0008,strong,181000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0009,strong,160000,26,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0010,strong,189000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0011,strong,148000,14,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0012,strong,117000,16,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0013,strong,113000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0014,strong,106000,24,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0015,strong,131000,18,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0016,strong,165000,21,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0017,strong,115000,11,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0018,strong,98000,15,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0019,strong,124000,15,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0020,strong,130000,27,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0021,strong,121000,13,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0022,strong,196000,15,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0023,strong,192000,22,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0024,strong,114000,10,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0025,strong,167000,28,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0026,strong,195000,27,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0027,strong,127000,24,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0028,strong,130000,17,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0029,strong,112000,24,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0030,strong,175000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0031,strong,131000,14,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0032,strong,176000,22,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0033,strong,130000,24,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0034,strong,182000,13,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0035,strong,160000,23,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0036,strong,172000,18,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0037,strong,187000,16,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0038,strong,165000,15,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0039,strong,154000,13,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0040,strong,156000,17,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0041,strong,165000,26,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0042,strong,193000,11,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0043,strong,95000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0044,strong,177000,23,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0045,strong,123000,25,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0046,strong,192000,13,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0047,strong,126000,22,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0048,strong,165000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0049,strong,154000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0050,strong,154000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0051,strong,122000,13,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0052,strong,128000,12,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0053,strong,152000,24,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0054,strong,96000,21,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0055,strong,100000,21,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0056,strong,165000,21,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0057,strong,152000,19,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0058,strong,137000,15,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0059,strong,141000,15,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0060,strong,118000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0061,strong,197000,10,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0062,strong,149000,22,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0063,strong,94000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0064,strong,196000,14,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0065,strong,180000,14,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0066,strong,187000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0067,strong,138000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0068,strong,105000,13,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0069,strong,175000,11,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0070,strong,147000,11,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0071,strong,168000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0072,strong,92000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0073,strong,191000,20,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0074,strong,93000,23,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0075,strong,112000,26,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0076,strong,134000,17,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0077,strong,131000,13,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0078,strong,91000,10,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0079,strong,148000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0080,strong,108000,27,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0081,strong,112000,26,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0082,strong,169000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0083,strong,166000,22,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0084,strong,158000,13,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0085,strong,136000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0086,strong,117000,16,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0087,strong,151000,26,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0088,strong,169000,18,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0089,strong,141000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0090,strong,158000,14,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0091,strong,119000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0092,strong,114000,11,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0093,strong,95000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0094,strong,118000,11,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0095,strong,123000,20,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0096,strong,165000,12,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0097,strong,151000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0098,strong,136000,13,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0099,strong,114000,21,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0100,strong,147000,12,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0101,strong,178000,28,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0102,strong,140000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0103,strong,94000,24,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0104,strong,127000,13,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0105,strong,171000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0106,strong,159000,20,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0107,strong,141000,19,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0108,strong,99000,19,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0109,strong,102000,20,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0110,strong,98000,12,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0111,strong,127000,15,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0112,strong,143000,13,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0113,strong,173000,23,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0114,strong,108000,18,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0115,strong,103000,19,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0116,strong,131000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0117,strong,117000,24,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0118,strong,102000,23,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0119,strong,132000,21,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0120,strong,169000,28,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0121,strong,117000,15,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0122,strong,97000,16,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0123,strong,193000,13,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0124,strong,144000,11,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0125,strong,94000,23,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0126,strong,144000,17,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0127,strong,93000,26,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0128,strong,130000,27,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0129,strong,147000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0130,strong,196000,22,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0131,strong,96000,13,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0132,strong,167000,12,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0133,strong,178000,17,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0134,strong,162000,23,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0135,strong,90000,27,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0136,strong,182000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0137,strong,99000,11,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0138,strong,116000,12,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0139,strong,190000,23,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0140,strong,131000,11,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0141,strong,106000,19,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0142,strong,156000,10,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0143,strong,104000,27,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0144,strong,109000,16,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0145,strong,159000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0146,strong,191000,28,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0147,strong,166000,16,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0148,strong,143000,16,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0149,strong,191000,21,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0150,strong,124000,24,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0151,strong,121000,11,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0152,strong,154000,26,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0153,strong,119000,14,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0154,strong,146000,23,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0155,strong,146000,16,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0156,strong,98000,10,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0157,strong,188000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0158,strong,181000,18,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0159,strong,99000,21,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0160,strong,145000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0161,strong,110000,23,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0162,strong,116000,22,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0163,strong,167000,25,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0164,strong,98000,19,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0165,strong,102000,14,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0166,strong,91000,27,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0167,strong,175000,10,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0168,strong,95000,22,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0169,strong,200000,21,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0170,strong,187000,16,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0171,strong,199000,20,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0172,strong,165000,23,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0173,strong,181000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0174,strong,96000,26,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0175,strong,157000,10,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0176,strong,113000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0177,strong,185000,20,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0178,strong,165000,16,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0179,strong,113000,15,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0180,strong,96000,14,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0181,strong,188000,24,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0182,strong,141000,15,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0183,strong,172000,23,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0184,strong,154000,16,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0185,strong,198000,16,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0186,strong,135000,14,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0187,strong,91000,11,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0188,strong,119000,19,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0189,strong,153000,16,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0190,strong,198000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0191,strong,141000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0192,strong,120000,28,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0193,strong,93000,15,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0194,strong,144000,18,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0195,strong,153000,25,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0196,strong,123000,24,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0197,strong,93000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0198,strong,108000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0199,strong,167000,19,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0200,strong,118000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0201,strong,90000,15,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0202,strong,133000,28,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0203,strong,124000,26,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0204,strong,183000,18,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0205,strong,190000,22,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0206,strong,168000,21,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0207,strong,111000,11,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0208,strong,111000,19,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0209,strong,142000,21,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0210,strong,159000,16,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0211,strong,111000,26,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0212,strong,158000,27,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0213,strong,107000,13,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0214,strong,148000,27,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0215,strong,147000,12,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0216,strong,198000,21,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0217,strong,158000,15,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0218,strong,187000,15,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0219,strong,191000,20,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0220,strong,102000,14,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0221,strong,194000,24,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0222,strong,97000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0223,strong,197000,19,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0224,strong,134000,14,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0225,strong,122000,16,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0226,strong,107000,12,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0227,strong,124000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0228,strong,91000,14,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0229,strong,163000,12,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0230,strong,103000,20,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0231,strong,189000,20,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0232,strong,114000,17,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0233,strong,172000,11,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0234,strong,165000,22,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0235,strong,153000,19,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0236,strong,130000,22,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0237,strong,166000,14,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0238,strong,170000,14,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0239,strong,95000,14,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0240,strong,132000,16,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0241,strong,188000,15,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0242,strong,91000,22,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0243,strong,148000,28,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0244,strong,177000,27,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0245,strong,118000,19,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0246,strong,140000,22,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0247,strong,169000,18,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0248,strong,167000,15,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0249,strong,127000,14,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0250,strong,110000,18,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0251,strong,122000,13,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0252,strong,126000,19,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0253,strong,155000,25,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0254,strong,155000,23,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0255,strong,166000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0256,strong,162000,26,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0257,strong,106000,16,1,0,1,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, occasional overdraft"
+M0258,strong,119000,25,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0259,strong,132000,12,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0260,strong,157000,22,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0261,strong,109000,18,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0262,strong,111000,22,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0263,strong,133000,28,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0264,strong,142000,26,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0265,strong,108000,16,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0266,strong,111000,25,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0267,strong,144000,18,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0268,strong,196000,18,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0269,strong,134000,17,0,1,1,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, occasional overdraft"
+M0270,strong,186000,18,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0271,strong,144000,14,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0272,strong,109000,24,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0273,strong,193000,24,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0274,strong,144000,16,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0275,strong,114000,26,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0276,strong,104000,12,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0277,strong,101000,11,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0278,strong,118000,10,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0279,strong,125000,25,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0280,strong,187000,10,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0281,strong,94000,28,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0282,strong,197000,22,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0283,strong,132000,21,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0284,strong,191000,11,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0285,strong,105000,15,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0286,strong,138000,14,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0287,strong,189000,15,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0288,strong,179000,22,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0289,strong,165000,15,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0290,strong,190000,14,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0291,strong,156000,28,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0292,strong,125000,25,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0293,strong,195000,20,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0294,strong,138000,25,1,0,0,Good history; no missed payments in 24 months,"full-time, 10 years","stable income, no overdrafts"
+M0295,strong,147000,15,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0296,strong,196000,10,0,0,1,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, occasional overdraft"
+M0297,strong,174000,18,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0298,strong,132000,21,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0299,strong,130000,26,0,1,0,Excellent history; no missed payments in 5 years,"full-time, 4 years","stable income, no overdrafts"
+M0300,strong,174000,16,0,0,0,Excellent history; no missed payments in 5 years,"full-time, 10 years","stable income, no overdrafts"
+M0301,borderline,73000,28,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0302,borderline,78000,30,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0303,borderline,106000,42,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0304,borderline,85000,30,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0305,borderline,64000,41,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0306,borderline,106000,42,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0307,borderline,107000,37,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0308,borderline,94000,30,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0309,borderline,87000,33,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0310,borderline,98000,33,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0311,borderline,59000,34,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0312,borderline,90000,42,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0313,borderline,66000,39,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0314,borderline,66000,29,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0315,borderline,92000,30,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0316,borderline,57000,38,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0317,borderline,113000,36,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0318,borderline,90000,32,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0319,borderline,85000,40,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0320,borderline,104000,30,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0321,borderline,109000,28,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0322,borderline,106000,39,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0323,borderline,57000,28,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0324,borderline,107000,30,1,2,3,Good history; no missed payments in 24 months,"full-time, 18 months",several recent overdrafts
+M0325,borderline,117000,38,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0326,borderline,94000,42,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0327,borderline,100000,29,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0328,borderline,96000,36,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0329,borderline,74000,40,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0330,borderline,74000,31,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0331,borderline,69000,41,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0332,borderline,62000,42,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0333,borderline,57000,39,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0334,borderline,98000,31,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0335,borderline,113000,34,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0336,borderline,90000,35,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0337,borderline,96000,42,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0338,borderline,99000,41,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0339,borderline,58000,41,1,1,3,Good history; no missed payments in 24 months,"full-time, 4 years",several recent overdrafts
+M0340,borderline,62000,43,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0341,borderline,93000,33,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0342,borderline,104000,28,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0343,borderline,79000,38,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0344,borderline,106000,30,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0345,borderline,63000,36,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0346,borderline,114000,39,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0347,borderline,107000,29,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0348,borderline,84000,29,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0349,borderline,100000,32,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0350,borderline,85000,28,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0351,borderline,93000,42,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0352,borderline,111000,37,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0353,borderline,74000,28,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0354,borderline,101000,30,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0355,borderline,113000,42,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0356,borderline,119000,40,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0357,borderline,106000,31,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0358,borderline,91000,33,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0359,borderline,75000,36,2,3,3,Mostly good history; one recent late payment,recently changed jobs,several recent overdrafts
+M0360,borderline,74000,43,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0361,borderline,92000,33,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0362,borderline,87000,42,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0363,borderline,76000,32,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0364,borderline,72000,37,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0365,borderline,107000,41,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0366,borderline,86000,30,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0367,borderline,115000,35,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0368,borderline,112000,40,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0369,borderline,118000,32,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0370,borderline,102000,33,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0371,borderline,104000,38,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0372,borderline,104000,33,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0373,borderline,98000,30,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0374,borderline,69000,33,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0375,borderline,79000,36,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0376,borderline,76000,39,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0377,borderline,101000,41,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0378,borderline,85000,33,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0379,borderline,91000,35,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0380,borderline,93000,30,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0381,borderline,60000,37,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0382,borderline,106000,38,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0383,borderline,120000,39,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0384,borderline,112000,32,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0385,borderline,75000,28,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0386,borderline,117000,41,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0387,borderline,96000,37,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0388,borderline,95000,34,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0389,borderline,89000,30,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0390,borderline,76000,39,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0391,borderline,63000,31,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0392,borderline,88000,28,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0393,borderline,95000,40,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0394,borderline,95000,34,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0395,borderline,101000,32,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0396,borderline,58000,34,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0397,borderline,100000,42,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0398,borderline,81000,36,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0399,borderline,86000,34,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0400,borderline,89000,35,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0401,borderline,60000,35,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0402,borderline,111000,41,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0403,borderline,66000,41,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0404,borderline,64000,39,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0405,borderline,60000,37,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0406,borderline,82000,41,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0407,borderline,114000,33,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0408,borderline,107000,39,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0409,borderline,92000,32,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0410,borderline,73000,32,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0411,borderline,68000,40,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0412,borderline,77000,37,1,1,2,Good history; no missed payments in 24 months,"full-time, 4 years",variable monthly deposits
+M0413,borderline,105000,39,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0414,borderline,56000,32,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0415,borderline,103000,30,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0416,borderline,73000,43,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0417,borderline,84000,30,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0418,borderline,96000,40,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0419,borderline,55000,40,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0420,borderline,114000,29,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0421,borderline,57000,30,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0422,borderline,87000,29,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0423,borderline,118000,42,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0424,borderline,84000,43,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0425,borderline,109000,41,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0426,borderline,63000,36,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0427,borderline,59000,40,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0428,borderline,66000,39,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0429,borderline,64000,30,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0430,borderline,112000,39,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0431,borderline,100000,36,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0432,borderline,88000,41,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0433,borderline,74000,31,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0434,borderline,99000,29,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0435,borderline,103000,33,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0436,borderline,69000,37,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0437,borderline,73000,28,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0438,borderline,92000,30,3,1,3,Multiple recent late payments,"full-time, 4 years",several recent overdrafts
+M0439,borderline,112000,39,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0440,borderline,104000,29,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0441,borderline,77000,32,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0442,borderline,115000,32,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0443,borderline,120000,30,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0444,borderline,75000,42,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0445,borderline,97000,34,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0446,borderline,90000,35,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0447,borderline,114000,42,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0448,borderline,110000,30,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0449,borderline,96000,34,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0450,borderline,55000,34,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0451,borderline,120000,42,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0452,borderline,111000,43,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0453,borderline,68000,28,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0454,borderline,66000,35,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0455,borderline,86000,31,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0456,borderline,62000,43,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0457,borderline,56000,29,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0458,borderline,64000,34,3,1,3,Multiple recent late payments,"full-time, 4 years",several recent overdrafts
+M0459,borderline,56000,42,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0460,borderline,90000,34,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0461,borderline,89000,40,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0462,borderline,67000,35,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0463,borderline,113000,36,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0464,borderline,94000,36,1,2,3,Good history; no missed payments in 24 months,"full-time, 18 months",several recent overdrafts
+M0465,borderline,114000,43,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0466,borderline,103000,41,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0467,borderline,92000,28,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0468,borderline,57000,31,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0469,borderline,105000,28,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0470,borderline,71000,31,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0471,borderline,74000,41,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0472,borderline,101000,41,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0473,borderline,57000,29,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0474,borderline,59000,32,3,1,3,Multiple recent late payments,"full-time, 4 years",several recent overdrafts
+M0475,borderline,94000,31,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0476,borderline,72000,40,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0477,borderline,110000,41,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0478,borderline,66000,35,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0479,borderline,85000,38,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0480,borderline,112000,32,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0481,borderline,77000,32,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0482,borderline,56000,43,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0483,borderline,104000,30,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0484,borderline,85000,30,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0485,borderline,117000,30,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0486,borderline,76000,39,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0487,borderline,119000,28,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0488,borderline,59000,38,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0489,borderline,68000,30,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0490,borderline,113000,33,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0491,borderline,61000,36,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0492,borderline,89000,28,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0493,borderline,111000,33,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0494,borderline,116000,38,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0495,borderline,74000,32,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0496,borderline,100000,33,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0497,borderline,75000,37,1,1,2,Good history; no missed payments in 24 months,"full-time, 4 years",variable monthly deposits
+M0498,borderline,78000,32,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0499,borderline,70000,38,3,1,3,Multiple recent late payments,"full-time, 4 years",several recent overdrafts
+M0500,borderline,77000,30,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0501,borderline,81000,39,2,3,0,Mostly good history; one recent late payment,recently changed jobs,"stable income, no overdrafts"
+M0502,borderline,117000,32,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0503,borderline,79000,35,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0504,borderline,59000,34,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0505,borderline,68000,28,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0506,borderline,82000,32,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0507,borderline,108000,35,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0508,borderline,80000,30,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0509,borderline,103000,32,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0510,borderline,90000,42,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0511,borderline,106000,42,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0512,borderline,111000,35,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0513,borderline,109000,43,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0514,borderline,87000,33,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0515,borderline,93000,43,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0516,borderline,92000,28,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0517,borderline,110000,39,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0518,borderline,73000,38,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0519,borderline,106000,42,2,2,3,Mostly good history; one recent late payment,"full-time, 18 months",several recent overdrafts
+M0520,borderline,74000,42,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0521,borderline,108000,35,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0522,borderline,109000,39,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0523,borderline,80000,30,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0524,borderline,70000,36,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0525,borderline,90000,38,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0526,borderline,66000,30,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0527,borderline,107000,38,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0528,borderline,83000,30,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0529,borderline,109000,28,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0530,borderline,75000,40,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0531,borderline,80000,38,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0532,borderline,93000,36,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0533,borderline,106000,37,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0534,borderline,106000,35,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0535,borderline,63000,42,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0536,borderline,67000,30,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0537,borderline,100000,36,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0538,borderline,84000,40,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0539,borderline,104000,32,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0540,borderline,77000,34,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0541,borderline,116000,39,2,3,3,Mostly good history; one recent late payment,recently changed jobs,several recent overdrafts
+M0542,borderline,96000,29,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0543,borderline,73000,43,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0544,borderline,67000,28,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0545,borderline,99000,37,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0546,borderline,112000,33,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0547,borderline,80000,41,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0548,borderline,62000,40,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0549,borderline,63000,33,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0550,borderline,57000,35,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0551,borderline,57000,42,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0552,borderline,97000,43,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0553,borderline,90000,34,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0554,borderline,68000,37,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0555,borderline,96000,43,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0556,borderline,117000,42,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0557,borderline,92000,38,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0558,borderline,113000,34,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0559,borderline,65000,38,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0560,borderline,92000,29,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0561,borderline,113000,34,2,3,3,Mostly good history; one recent late payment,recently changed jobs,several recent overdrafts
+M0562,borderline,111000,39,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0563,borderline,111000,37,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0564,borderline,90000,43,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0565,borderline,98000,42,2,3,3,Mostly good history; one recent late payment,recently changed jobs,several recent overdrafts
+M0566,borderline,89000,38,1,2,3,Good history; no missed payments in 24 months,"full-time, 18 months",several recent overdrafts
+M0567,borderline,104000,41,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0568,borderline,112000,32,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0569,borderline,102000,33,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0570,borderline,83000,35,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0571,borderline,116000,42,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0572,borderline,117000,41,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0573,borderline,112000,29,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0574,borderline,57000,36,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0575,borderline,95000,34,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0576,borderline,67000,28,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0577,borderline,99000,39,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0578,borderline,60000,39,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0579,borderline,85000,28,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0580,borderline,99000,31,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0581,borderline,108000,43,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0582,borderline,80000,32,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0583,borderline,93000,35,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0584,borderline,117000,33,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0585,borderline,74000,35,3,3,0,Multiple recent late payments,recently changed jobs,"stable income, no overdrafts"
+M0586,borderline,61000,35,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0587,borderline,62000,33,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0588,borderline,117000,37,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0589,borderline,68000,40,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0590,borderline,118000,32,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0591,borderline,58000,29,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0592,borderline,84000,31,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0593,borderline,92000,36,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0594,borderline,62000,28,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0595,borderline,71000,36,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0596,borderline,94000,39,1,2,3,Good history; no missed payments in 24 months,"full-time, 18 months",several recent overdrafts
+M0597,borderline,72000,33,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0598,borderline,93000,37,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0599,borderline,85000,38,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0600,borderline,98000,39,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0601,borderline,104000,41,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0602,borderline,67000,43,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0603,borderline,114000,33,3,2,1,Multiple recent late payments,"full-time, 18 months","stable income, occasional overdraft"
+M0604,borderline,114000,41,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0605,borderline,62000,33,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0606,borderline,96000,34,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0607,borderline,73000,39,1,1,2,Good history; no missed payments in 24 months,"full-time, 4 years",variable monthly deposits
+M0608,borderline,99000,31,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0609,borderline,57000,33,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0610,borderline,105000,31,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0611,borderline,111000,33,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0612,borderline,120000,41,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0613,borderline,62000,30,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0614,borderline,113000,38,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0615,borderline,109000,35,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0616,borderline,92000,35,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0617,borderline,112000,40,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0618,borderline,112000,38,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0619,borderline,81000,36,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0620,borderline,113000,31,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0621,borderline,73000,39,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0622,borderline,80000,38,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0623,borderline,98000,32,3,1,3,Multiple recent late payments,"full-time, 4 years",several recent overdrafts
+M0624,borderline,119000,34,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0625,borderline,116000,30,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0626,borderline,120000,29,1,1,3,Good history; no missed payments in 24 months,"full-time, 4 years",several recent overdrafts
+M0627,borderline,93000,38,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0628,borderline,81000,40,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0629,borderline,79000,38,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0630,borderline,66000,31,1,2,0,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, no overdrafts"
+M0631,borderline,94000,41,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0632,borderline,119000,33,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0633,borderline,80000,41,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0634,borderline,74000,30,2,3,1,Mostly good history; one recent late payment,recently changed jobs,"stable income, occasional overdraft"
+M0635,borderline,77000,38,2,3,3,Mostly good history; one recent late payment,recently changed jobs,several recent overdrafts
+M0636,borderline,87000,29,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0637,borderline,56000,42,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0638,borderline,93000,36,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0639,borderline,59000,42,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0640,borderline,90000,36,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0641,borderline,72000,40,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0642,borderline,73000,33,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0643,borderline,76000,37,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0644,borderline,59000,35,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0645,borderline,118000,42,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0646,borderline,70000,34,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0647,borderline,96000,28,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0648,borderline,62000,35,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0649,borderline,63000,37,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0650,borderline,106000,42,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0651,borderline,79000,28,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0652,borderline,102000,29,2,1,1,Mostly good history; one recent late payment,"full-time, 4 years","stable income, occasional overdraft"
+M0653,borderline,115000,43,1,3,2,Good history; no missed payments in 24 months,recently changed jobs,variable monthly deposits
+M0654,borderline,112000,32,1,2,1,Good history; no missed payments in 24 months,"full-time, 18 months","stable income, occasional overdraft"
+M0655,borderline,61000,38,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0656,borderline,75000,28,3,2,0,Multiple recent late payments,"full-time, 18 months","stable income, no overdrafts"
+M0657,borderline,115000,38,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0658,borderline,111000,43,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0659,borderline,118000,36,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0660,borderline,75000,38,1,3,3,Good history; no missed payments in 24 months,recently changed jobs,several recent overdrafts
+M0661,borderline,100000,36,3,1,0,Multiple recent late payments,"full-time, 4 years","stable income, no overdrafts"
+M0662,borderline,57000,38,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0663,borderline,85000,31,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0664,borderline,80000,43,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0665,borderline,63000,42,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0666,borderline,76000,38,2,3,2,Mostly good history; one recent late payment,recently changed jobs,variable monthly deposits
+M0667,borderline,102000,41,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0668,borderline,75000,40,3,2,2,Multiple recent late payments,"full-time, 18 months",variable monthly deposits
+M0669,borderline,91000,33,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0670,borderline,82000,32,2,2,3,Mostly good history; one recent late payment,"full-time, 18 months",several recent overdrafts
+M0671,borderline,84000,35,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0672,borderline,117000,29,1,1,3,Good history; no missed payments in 24 months,"full-time, 4 years",several recent overdrafts
+M0673,borderline,76000,32,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0674,borderline,88000,31,1,1,0,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, no overdrafts"
+M0675,borderline,68000,32,2,2,1,Mostly good history; one recent late payment,"full-time, 18 months","stable income, occasional overdraft"
+M0676,borderline,106000,34,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0677,borderline,72000,28,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0678,borderline,58000,34,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0679,borderline,67000,34,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0680,borderline,76000,35,1,3,0,Good history; no missed payments in 24 months,recently changed jobs,"stable income, no overdrafts"
+M0681,borderline,71000,28,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0682,borderline,113000,29,3,3,1,Multiple recent late payments,recently changed jobs,"stable income, occasional overdraft"
+M0683,borderline,61000,38,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0684,borderline,117000,28,3,2,3,Multiple recent late payments,"full-time, 18 months",several recent overdrafts
+M0685,borderline,80000,36,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0686,borderline,74000,31,1,1,2,Good history; no missed payments in 24 months,"full-time, 4 years",variable monthly deposits
+M0687,borderline,91000,39,2,1,3,Mostly good history; one recent late payment,"full-time, 4 years",several recent overdrafts
+M0688,borderline,95000,31,3,1,1,Multiple recent late payments,"full-time, 4 years","stable income, occasional overdraft"
+M0689,borderline,78000,32,2,1,0,Mostly good history; one recent late payment,"full-time, 4 years","stable income, no overdrafts"
+M0690,borderline,117000,35,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0691,borderline,92000,34,1,3,1,Good history; no missed payments in 24 months,recently changed jobs,"stable income, occasional overdraft"
+M0692,borderline,81000,35,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0693,borderline,75000,38,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0694,borderline,111000,28,3,1,2,Multiple recent late payments,"full-time, 4 years",variable monthly deposits
+M0695,borderline,117000,38,2,2,2,Mostly good history; one recent late payment,"full-time, 18 months",variable monthly deposits
+M0696,borderline,88000,36,1,2,2,Good history; no missed payments in 24 months,"full-time, 18 months",variable monthly deposits
+M0697,borderline,68000,28,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0698,borderline,85000,39,2,2,0,Mostly good history; one recent late payment,"full-time, 18 months","stable income, no overdrafts"
+M0699,borderline,116000,34,1,1,1,Good history; no missed payments in 24 months,"full-time, 4 years","stable income, occasional overdraft"
+M0700,borderline,61000,38,2,1,2,Mostly good history; one recent late payment,"full-time, 4 years",variable monthly deposits
+M0701,weak,60000,47,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0702,weak,43000,51,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0703,weak,71000,46,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0704,weak,46000,54,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0705,weak,44000,44,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0706,weak,53000,45,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0707,weak,44000,51,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0708,weak,63000,54,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0709,weak,62000,49,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0710,weak,54000,40,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0711,weak,68000,52,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0712,weak,61000,47,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0713,weak,56000,40,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0714,weak,47000,40,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0715,weak,50000,44,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0716,weak,65000,50,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0717,weak,60000,51,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0718,weak,47000,53,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0719,weak,61000,45,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0720,weak,41000,50,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0721,weak,49000,48,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0722,weak,74000,45,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0723,weak,65000,48,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0724,weak,69000,46,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0725,weak,64000,43,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0726,weak,58000,41,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0727,weak,67000,50,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0728,weak,56000,51,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0729,weak,44000,51,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0730,weak,60000,48,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0731,weak,53000,54,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0732,weak,42000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0733,weak,63000,51,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0734,weak,51000,47,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0735,weak,70000,47,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0736,weak,56000,45,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0737,weak,46000,40,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0738,weak,51000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0739,weak,49000,48,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0740,weak,69000,40,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0741,weak,59000,51,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0742,weak,70000,55,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0743,weak,56000,51,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0744,weak,42000,46,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0745,weak,70000,51,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0746,weak,70000,44,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0747,weak,53000,45,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0748,weak,72000,41,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0749,weak,70000,40,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0750,weak,51000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0751,weak,52000,52,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0752,weak,68000,45,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0753,weak,54000,55,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0754,weak,74000,55,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0755,weak,54000,46,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0756,weak,70000,40,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0757,weak,52000,47,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0758,weak,58000,53,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0759,weak,56000,40,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0760,weak,42000,53,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0761,weak,61000,47,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0762,weak,47000,43,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0763,weak,45000,48,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0764,weak,68000,49,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0765,weak,50000,44,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0766,weak,75000,51,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0767,weak,73000,50,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0768,weak,71000,54,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0769,weak,53000,42,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0770,weak,45000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0771,weak,49000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0772,weak,70000,41,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0773,weak,68000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0774,weak,53000,53,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0775,weak,41000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0776,weak,50000,52,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0777,weak,53000,49,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0778,weak,55000,53,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0779,weak,52000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0780,weak,58000,42,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0781,weak,59000,46,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0782,weak,53000,55,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0783,weak,73000,54,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0784,weak,48000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0785,weak,64000,47,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0786,weak,43000,41,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0787,weak,71000,44,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0788,weak,47000,52,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0789,weak,54000,52,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0790,weak,42000,49,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0791,weak,72000,51,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0792,weak,44000,45,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0793,weak,58000,41,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0794,weak,48000,44,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0795,weak,50000,47,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0796,weak,54000,45,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0797,weak,63000,53,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0798,weak,45000,43,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0799,weak,66000,51,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0800,weak,61000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0801,weak,54000,55,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0802,weak,72000,47,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0803,weak,54000,50,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0804,weak,40000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0805,weak,63000,40,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0806,weak,56000,50,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0807,weak,48000,51,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0808,weak,66000,50,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0809,weak,72000,50,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0810,weak,62000,47,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0811,weak,45000,40,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0812,weak,74000,45,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0813,weak,50000,47,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0814,weak,68000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0815,weak,69000,43,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0816,weak,59000,41,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0817,weak,44000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0818,weak,69000,48,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0819,weak,45000,43,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0820,weak,58000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0821,weak,63000,47,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0822,weak,55000,45,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0823,weak,43000,53,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0824,weak,75000,46,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0825,weak,68000,50,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0826,weak,42000,46,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0827,weak,63000,45,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0828,weak,66000,42,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0829,weak,43000,44,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0830,weak,67000,43,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0831,weak,72000,49,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0832,weak,49000,53,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0833,weak,50000,45,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0834,weak,71000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0835,weak,62000,54,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0836,weak,49000,47,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0837,weak,72000,52,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0838,weak,62000,52,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0839,weak,68000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0840,weak,66000,41,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0841,weak,66000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0842,weak,45000,41,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0843,weak,51000,42,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0844,weak,60000,50,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0845,weak,65000,42,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0846,weak,58000,42,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0847,weak,58000,49,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0848,weak,42000,51,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0849,weak,46000,40,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0850,weak,41000,55,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0851,weak,62000,50,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0852,weak,49000,45,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0853,weak,73000,43,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0854,weak,64000,50,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0855,weak,59000,51,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0856,weak,64000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0857,weak,51000,46,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0858,weak,53000,42,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0859,weak,41000,55,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0860,weak,53000,53,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0861,weak,63000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0862,weak,69000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0863,weak,50000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0864,weak,73000,55,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0865,weak,66000,40,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0866,weak,68000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0867,weak,48000,54,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0868,weak,69000,49,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0869,weak,68000,50,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0870,weak,56000,53,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0871,weak,57000,46,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0872,weak,55000,51,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0873,weak,74000,44,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0874,weak,44000,49,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0875,weak,61000,49,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0876,weak,56000,48,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0877,weak,52000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0878,weak,53000,53,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0879,weak,53000,45,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0880,weak,52000,55,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0881,weak,59000,52,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0882,weak,57000,46,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0883,weak,52000,51,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0884,weak,51000,55,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0885,weak,61000,45,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0886,weak,64000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0887,weak,51000,53,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0888,weak,59000,41,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0889,weak,60000,43,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0890,weak,47000,46,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0891,weak,67000,48,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0892,weak,50000,52,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0893,weak,61000,41,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0894,weak,40000,54,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0895,weak,67000,46,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0896,weak,65000,45,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0897,weak,49000,41,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0898,weak,49000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0899,weak,53000,45,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0900,weak,48000,41,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0901,weak,66000,50,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0902,weak,68000,53,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0903,weak,45000,43,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0904,weak,56000,46,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0905,weak,48000,53,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0906,weak,73000,43,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0907,weak,55000,51,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0908,weak,47000,48,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0909,weak,64000,47,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0910,weak,64000,54,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0911,weak,48000,40,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0912,weak,43000,55,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0913,weak,58000,40,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0914,weak,54000,46,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0915,weak,63000,42,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0916,weak,57000,40,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0917,weak,66000,40,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0918,weak,48000,51,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0919,weak,58000,48,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0920,weak,44000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0921,weak,48000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0922,weak,61000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0923,weak,43000,52,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0924,weak,57000,54,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0925,weak,45000,48,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0926,weak,66000,55,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0927,weak,66000,49,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0928,weak,62000,40,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0929,weak,62000,48,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0930,weak,72000,48,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0931,weak,74000,47,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0932,weak,44000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0933,weak,50000,44,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0934,weak,70000,43,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0935,weak,55000,47,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0936,weak,46000,44,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0937,weak,73000,50,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0938,weak,52000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0939,weak,54000,53,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0940,weak,51000,45,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0941,weak,48000,43,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0942,weak,43000,46,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0943,weak,62000,54,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0944,weak,50000,53,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0945,weak,46000,52,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0946,weak,59000,53,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0947,weak,46000,52,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0948,weak,51000,54,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0949,weak,57000,42,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0950,weak,42000,40,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0951,weak,59000,44,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0952,weak,63000,51,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0953,weak,47000,47,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0954,weak,71000,45,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0955,weak,43000,49,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0956,weak,71000,40,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0957,weak,67000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0958,weak,49000,47,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0959,weak,65000,41,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0960,weak,75000,53,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0961,weak,65000,46,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0962,weak,73000,41,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0963,weak,51000,49,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0964,weak,68000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0965,weak,69000,52,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0966,weak,47000,45,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0967,weak,52000,43,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0968,weak,51000,41,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0969,weak,57000,42,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0970,weak,70000,52,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0971,weak,50000,51,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0972,weak,58000,53,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0973,weak,73000,52,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0974,weak,65000,52,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0975,weak,63000,44,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0976,weak,55000,40,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0977,weak,52000,54,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0978,weak,54000,53,3,3,2,Multiple recent late payments,recently changed jobs,variable monthly deposits
+M0979,weak,57000,40,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0980,weak,65000,40,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0981,weak,64000,46,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0982,weak,49000,53,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0983,weak,54000,43,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0984,weak,47000,54,3,4,2,Multiple recent late payments,less than 6 months in current role,variable monthly deposits
+M0985,weak,60000,48,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0986,weak,67000,41,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0987,weak,72000,44,4,4,3,Significant recent delinquency,less than 6 months in current role,several recent overdrafts
+M0988,weak,49000,44,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0989,weak,75000,46,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0990,weak,41000,42,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0991,weak,42000,55,3,4,3,Multiple recent late payments,less than 6 months in current role,several recent overdrafts
+M0992,weak,55000,43,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0993,weak,51000,52,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0994,weak,52000,43,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0995,weak,69000,55,4,4,2,Significant recent delinquency,less than 6 months in current role,variable monthly deposits
+M0996,weak,61000,49,4,3,2,Significant recent delinquency,recently changed jobs,variable monthly deposits
+M0997,weak,57000,50,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M0998,weak,67000,49,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
+M0999,weak,70000,54,3,3,3,Multiple recent late payments,recently changed jobs,several recent overdrafts
+M1000,weak,74000,52,4,3,3,Significant recent delinquency,recently changed jobs,several recent overdrafts
