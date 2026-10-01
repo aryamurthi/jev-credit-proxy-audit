@@ -39,7 +39,7 @@ def ci(row):
 def fig1(cells):
     w = wide(cells, "exp1_unconstrained")
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    bins = np.arange(-0.205, 0.21, 0.01)
+    bins = np.arange(-0.065, 0.135, 0.01)
     for c, label in ZIPS.items():
         d = (w[c] - w["A_noZIP"]).dropna() * 100
         ax.hist(d, bins=bins * 100, histtype="step", linewidth=1.6, color=COL[c], label=f"{label}  (n={len(d)})")
@@ -130,6 +130,8 @@ def fig4(summ):
         ax.bar(np.arange(3) + (j - 1.5) * width, vals, width, yerr=np.array(errs).T, capsize=3, color=COL[c],
                label={**ZIPS, "E_negctrl": "Meaningless field"}[c])
     ax.set_xticks(np.arange(3), ["Strong (300)", "Borderline (400)", "Weak (300)"])
+    ax.text(2, 0.05, "P(APPROVE) = 0 in every\ncondition (floor): no shift\nmeasurable on this outcome", ha="center",
+            va="bottom", fontsize=8, color="#555555")
     ax.set_ylabel("Mean |ΔP(APPROVE)|, percentage points")
     ax.set_title("Shift by applicant strength (unconstrained instructions, 95% CIs)", fontsize=10)
     ax.legend(frameon=False, fontsize=8)
@@ -151,12 +153,13 @@ def fig5(summ):
             lo, hi = ci(r.abs_ci95)
             vals.append(r.abs_mean * 100)
             errs.append([(r.abs_mean - lo) * 100, (hi - r.abs_mean) * 100])
-        ax.bar(np.arange(len(conds)) + (j - 0.5) * width, vals, width, yerr=np.array(errs).T, capsize=3,
-               color=color, label=name)
+        xs = np.arange(len(conds)) + (j - 0.5) * width
+        ax.bar(xs, vals, width, yerr=np.array(errs).T, capsize=3, color=color, label=name)
+        for xx, v in zip(xs, vals):
+            ax.text(xx, v + 0.25, f"{v:.2f}", ha="center", fontsize=7)
     ax.set_xticks(np.arange(len(conds)), labels)
     ax.set_ylabel("Mean |ΔP(APPROVE)| vs no extra field, pp")
-    ax.set_yscale("symlog", linthresh=1)
-    ax.set_title("Unconstrained vs explicit policy instruction (95% CIs, symlog scale)", fontsize=10)
+    ax.set_title("Unconstrained vs explicit policy instruction (1,000 matched applicants, 95% CIs)", fontsize=10)
     ax.legend(frameon=False, fontsize=8)
     fig.tight_layout()
     fig.savefig(os.path.join(FIG, "policy_instruction_comparison.png"))

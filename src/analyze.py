@@ -189,6 +189,81 @@ def order_effects(calls):
     return res
 
 
+# ---------------------------------------------------------------- integrity checks (analysis order steps 1-3)
+FIN = ["Income", "Debt-to-income ratio", "Credit history", "Employment stability", "Bank transaction stability"]
+EXPECTED = {"pilot": 300, "noise": 1500, "main": 36000}
+
+
+def integrity():
+    by_phase = {ph: {"attempts": 0, "ok_keys": set(), "retries": 0, "status": {}} for ph in EXPECTED}
+    states, model_bad = {}, 0
+    for path in sorted(glob.glob(os.path.join(ROOT, "results", "raw", "*.jsonl"))):
+        with open(path) as f:
+            for line in f:
+                r = json.loads(line)
+                if "key" not in r:
+                    continue
+                b = by_phase[r["phase"]]
+                b["attempts"] += 1
+                b["retries"] += r["retry_count"]
+                b["status"][str(r["http_status"])] = b["status"].get(str(r["http_status"]), 0) + 1
+                if r["ok"]:
+                    b["ok_keys"].add(r["key"])
+                    if not str(r["parsed"]["model_returned"]).startswith(C.MODEL):
+                        model_bad += 1
+                if r["phase"] == "main" and r["ok"]:
+                    states.setdefault((r["experiment"], r["applicant_id"]), {}).setdefault(
+                        r["condition"], set()).add(json.dumps(r["request"]["state"]["Applicant"], sort_keys=False))
+    completeness = {ph: {"expected": EXPECTED[ph], "successful": len(b["ok_keys"]), "attempts": b["attempts"],
+                         "retries_total": b["retries"], "http_status_counts": b["status"],
+                         "permanent_failures": EXPECTED[ph] - len(b["ok_keys"])} for ph, b in by_phase.items()}
+    problems = []
+    for (exp, aid), conds in states.items():
+        for c, ss in conds.items():
+            if len(ss) != 1:
+                problems.append(f"{exp} {aid} {c}: {len(ss)} distinct states across orders")
+        if "A_noZIP" not in conds:
+            continue
+        a = json.loads(next(iter(conds["A_noZIP"])))
+        # The raw log stores each request with sorted keys (RawLog uses sort_keys=True), so field ORDER cannot be
+        # read back from it; the checks below compare field sets and values.
+        if set(a) != set(FIN):
+            problems.append(f"{exp} {aid} A: unexpected fields {sorted(a)}")
+        for c, ss in conds.items():
+            x = json.loads(next(iter(ss)))
+            extra = [k for k in x if k not in FIN]
+            same_fin = [k for k in FIN if x.get(k) != a.get(k)]
+            if c in ("B_zipA", "C_zipB", "D_zipC"):
+                ok = extra == ["ZIP code"] and not same_fin
+            elif c == "E_negctrl":
+                ok = extra == [C.NEGATIVE_CONTROL_FIELD[0]] and not same_fin
+            elif c == "F_posctrl":
+                da, dx = int(a["Debt-to-income ratio"].rstrip("%")), int(x["Debt-to-income ratio"].rstrip("%"))
+                ok = not extra and same_fin == ["Debt-to-income ratio"] and abs(dx - da) == C.POSITIVE_CONTROL_DTI_SHIFT
+            else:
+                ok = not extra and not same_fin
+            if not ok:
+                problems.append(f"{exp} {aid} {c}: extra={extra} changed={same_fin}")
+    return {"completeness": completeness, "responses_with_wrong_model": model_bad,
+            "pair_integrity": {"pairs_checked": len(states), "problems": len(problems), "examples": problems[:10]}}
+
+
+def core_table(summary_df, nf):
+    s = summary_df[(summary_df.experiment == "exp1_unconstrained") & (summary_df.stratum == "all") &
+                   (summary_df.outcome == "APPROVE")]
+    rows = [{"manipulation": "Exact repeat (noise floor)", "abs_mean_pp": nf["abs_dP_APPROVE_mean"] * 100,
+             "abs_ci95_pp": [v * 100 for v in nf["abs_dP_APPROVE_ci95"]], "flip_rate": nf["flip_rate"]}]
+    for c, name in (("E_negctrl", "Meaningless field (Internal batch B17)"), ("B_zipA", "ZIP 63011 (reference)"),
+                    ("C_zipB", "ZIP 63034 (demographic contrast)"), ("D_zipC", "ZIP 63080 (economic contrast)"),
+                    ("F_posctrl", "Financial: DTI +/-20 points")):
+        r = s[s.comparison == f"{c} vs A_noZIP"]
+        if len(r):
+            r = r.iloc[0]
+            rows.append({"manipulation": name, "abs_mean_pp": r.abs_mean * 100,
+                         "abs_ci95_pp": [v * 100 for v in r.abs_ci95], "flip_rate": r.flip_rate})
+    return rows
+
+
 # ---------------------------------------------------------------- main
 def main():
     rng = np.random.default_rng(BOOT_SEED)
@@ -254,8 +329,11 @@ def main():
 
     base = w1["p_APPROVE"]["A_noZIP"].dropna()
     strata_abs = summary_df[(summary_df.outcome == "APPROVE") & (summary_df.comparison.isin([f"{c} vs A_noZIP" for c in ZIP_CONDS]))]
+    integ = integrity()
     stat = {
         "preregistration_commit": "373a94f",
+        "integrity": integ,
+        "core_table_exp1": core_table(summary_df, nf),
         "model_requested": C.MODEL,
         "models_returned": calls.model.value_counts().to_dict(),
         "data_quality": {"call_attempts_logged": int(attempts), "successful_calls": int(len(calls)),
@@ -275,7 +353,7 @@ def main():
     with open(os.path.join(ROOT, "analysis", "statistics.json"), "w") as f:
         json.dump(stat, f, indent=2, default=float)
     with open(os.path.join(ROOT, "results_summary.json"), "w") as f:
-        json.dump({k: stat[k] for k in ("preregistration_commit", "model_requested", "models_returned", "data_quality",
+        json.dump({k: stat[k] for k in ("preregistration_commit", "integrity", "core_table_exp1", "model_requested", "models_returned", "data_quality",
                                         "noise_floor_order_averaged", "practical_threshold_abs", "primary_tests",
                                         "primary_metric_exp1", "primary_metric_exp2", "secondary_zip_vs_negative_control",
                                         "baseline_floor_ceiling_exp1")}, f, indent=2, default=float)

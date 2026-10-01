@@ -1,0 +1,5 @@
+{"phase": "noise", "planned": 1500, "already_ok": 0, "to_run": 1500, "spent_before_usd": 0.005861}
+{"done": 500, "ok": 493, "failed": 7, "skipped": 0, "spent_usd": 0.020054, "elapsed_s": 67}
+{"done": 1000, "ok": 993, "failed": 7, "skipped": 0, "spent_usd": 0.025603, "elapsed_s": 79}
+{"done": 1500, "ok": 1493, "failed": 7, "skipped": 0, "spent_usd": 0.035023, "elapsed_s": 99}
+{"finished": true, "ok": 1493, "failed": 7, "skipped": 0, "spent_usd": 0.035023, "model_mismatch": null, "elapsed_s": 99}
