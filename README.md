@@ -32,7 +32,7 @@ A 74-second walkthrough of the study: [`media/jev-credit-audit.mp4`](media/jev-c
 - **Option order:** every request is sent in three rotations, so each option appears once in each position. Results are mapped back to option names before analysis and averaged over the three orders.
 - **Noise floor:** 100 preregistered applicants × 5 identical repeats × 3 orders.
 - **Calls:** 36,000 main + 1,500 noise + 300 pilot, for USD 0.78 in total.
-- **Preregistration:** [`PREREGISTRATION.md`](PREREGISTRATION.md), committed (`373a94f`) before the noise and main phases. Deviations are listed at its end; none changes a metric, test or threshold.
+- **Preregistration:** [`PREREGISTRATION.md`](PREREGISTRATION.md), committed (`6825853`) before the noise and main phases. Deviations are listed at its end; none changes a metric, test or threshold.
 
 ## Main results (unconstrained instructions)
 

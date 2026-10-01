@@ -1,4 +1,4 @@
-"""Implements the metrics and tests preregistered in PREREGISTRATION.md (commit 373a94f). This code itself was
+"""Implements the metrics and tests preregistered in PREREGISTRATION.md (commit 6825853). This code itself was
 written during the run and is not part of the preregistration (see its Deviations). Reads only results/raw/*.jsonl.
 
 Outputs:
@@ -340,7 +340,7 @@ def main():
     strata_abs = summary_df[(summary_df.outcome == "APPROVE") & (summary_df.comparison.isin([f"{c} vs A_noZIP" for c in ZIP_CONDS]))]
     integ = integrity()
     stat = {
-        "preregistration_commit": "373a94f",
+        "preregistration_commit": "6825853",
         "integrity": integ,
         "core_table_exp1": core_table(summary_df, nf),
         "model_requested": C.MODEL,

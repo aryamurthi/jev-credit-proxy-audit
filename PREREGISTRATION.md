@@ -150,19 +150,19 @@ The core table reports, for each manipulation (exact repeat / meaningless field 
 
 ## Deviations
 
-Corrected at 2026-10-01T05:32:13Z after an independent review (two rounds, summarized in docs/REVIEWS.md), which found the first two entries inaccurate. The original wording is in git history (commit 740a760).
+Corrected at 2026-10-01T05:32:13Z after an independent review (two rounds, summarized in docs/REVIEWS.md), which found the first two entries inaccurate. The original wording is in git history (commit e8ccbf6).
 
 1. **Retry list (process).** 7 of the 1,500 noise calls returned HTTP 520 (a Cloudflare edge error) and were not retried, because 520 was missing from the client's retry list.
    - 520 to 523 were added to `src/jev_client.py`. The file was modified at 04:54:48Z, during the noise phase and 9 s before the main phase began (04:54:57Z). The main phase therefore ran with the fix.
    - This entry was written at 04:56:03Z, after the main phase had started. Its earlier text gave that writing time as if it were the time of the fix.
    - The 7 keys were re-sent unchanged after the main phase and all succeeded. Their failure records stay in `results/raw/noise.jsonl`.
-2. **The analysis code was not part of the preregistration.** `src/analyze.py` and `src/plots.py` are not in commit 373a94f.
+2. **The analysis code was not part of the preregistration.** `src/analyze.py` and `src/plots.py` are not in commit 6825853.
    - They were written while the noise and main phases ran.
-   - They were first committed at 05:07:58Z (740a760). By then all exp1 data (T1–T5) had been collected and exp2 was in progress.
+   - They were first committed at 05:07:58Z (e8ccbf6). By then all exp1 data (T1–T5) had been collected and exp2 was in progress.
    - The script was run once on a partial log (about 04:56Z) to debug it. That run printed counts and the noise floor only. No comparison was inspected then.
    - What was preregistered is the text of sections 4–9: metrics, tests, thresholds, conditions and the example rule. The code implements that text.
    - The earlier entry described this only as "guards added", and the status line said no main-phase result had been analysed. Both understated it.
-   - Commit 6476e6e then added integrity checks and the core table (analysis order steps 1–3 and the table named in the "Analysis order" section). These are additions that report data quality; no metric was changed.
+   - Commit 102893e then added integrity checks and the core table (analysis order steps 1–3 and the table named in the "Analysis order" section). These are additions that report data quality; no metric was changed.
 3. **Post-review numerical corrections** (2026-10-01T05:32:13Z).
    - Every comparison now rounds the difference to 6 decimals after subtracting. Order-averaged probabilities are multiples of 1/300 (1/900 for T6), and none of these sits near a 6-decimal rounding boundary, so equal values compare equal.
    - Floating-point residue had broken ties in the Wilcoxon ranks and zero-dropping, the 0.99 ceiling share (reported as 0.0, actually 0.140), the selected-action tie-break and the example-pick tie rule.
@@ -172,3 +172,14 @@ Corrected at 2026-10-01T05:32:13Z after an independent review (two rounds, summa
    - The preregistered Pratt variant and a sign test are now reported beside the Wilcoxon test.
    - No metric, test, threshold or condition changed. The Holm-adjusted conclusions are unchanged.
 4. **Design caveat, disclosed after the fact.** The main phase ran exp1 in full before exp2, and the conditions in a fixed order within each applicant. So the instruction comparison (T6) is confounded with run time (about 12 minutes apart). The noise floor bounds ordinary run-to-run variation, but it was measured in one block at the start.
+5. **Authorship rewrite before publication** (2026-10-01T14:10:37Z). At the owner's request, every commit's author and committer were changed from the build agent's local identity to Arya Murthi (GitHub no-reply address). The Co-Authored-By lines naming Claude stay.
+   - Author and commit dates are unchanged, so the order "preregistration before the noise and main phases" still reads from the history.
+   - Commit hashes changed. The hashes cited in this repository were updated to the new ones. Old → new:
+   - a447e37 → 3a250f7
+   - 373a94f → 6825853
+   - 740a760 → e8ccbf6
+   - 6476e6e → 102893e
+   - dd5dc80 → 82b2f17
+   - c1e0d4f → e5b8b5e
+   - f524f1f → 4e8deaf
+   - afd6e2c → 0597f33

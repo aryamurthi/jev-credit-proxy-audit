@@ -5,7 +5,7 @@ Two reviewers checked this repository. Neither had built it, and each worked rea
 ## Round 1: changes requested
 The reviewer recomputed the core table, the T4 and T5 contrasts and the exp2 means from the raw logs. They matched to within 0.01 pp. Pair integrity, the model version and the option-name mapping were also confirmed.
 
-Eleven findings, all addressed in commit dd5dc80:
+Eleven findings, all addressed in commit 82b2f17:
 1. The analysis code was not preregistered; the record understated this.
 2. A deviation entry gave the time it was written instead of the time of the fix.
 3. The preregistered Pratt variant was computed but not reported. It, and a sign test, show the T1–T3 shifts are systematic in direction.
@@ -24,4 +24,4 @@ The corrections reproduced byte-for-byte. The remaining issues:
 - Wording: "fewer but larger" increases; "one meaningless field tested"; flip rates including the batch label; the run-time caveat on the instruction result.
 - The analysis docstring and the preregistration status line.
 
-All of these were addressed in commit c1e0d4f.
+All of these were addressed in commit e5b8b5e.
