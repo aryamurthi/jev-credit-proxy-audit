@@ -9,7 +9,7 @@ import urllib.request
 
 import config as C
 
-RETRYABLE = {408, 409, 425, 429, 500, 502, 503, 504, 524, 529}
+RETRYABLE = {408, 409, 425, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524, 529}  # 52x: Cloudflare edge errors (520 seen in the noise phase)
 
 
 def load_key():

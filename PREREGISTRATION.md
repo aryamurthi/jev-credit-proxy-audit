@@ -2,7 +2,7 @@
 
 A counterfactual study of Jev in synthetic credit decisions.
 
-Written 2026-10-01, after the pilot and before any call of the noise or main phases. It is committed to git before those phases run. The commit hash is the timestamp of record. Any change after that commit is listed under "Deviations" at the end, with its time and reason.
+Written 2026-10-01, after the pilot and before any call of the noise or main phases. **Status at 2026-10-01T05:07:58Z: the noise phase is finished, and the main phase is IN PROGRESS. No main-phase result has been analysed.** It is committed to git before those phases run. The commit hash is the timestamp of record. Any change after that commit is listed under "Deviations" at the end, with its time and reason.
 
 ## 1. What this measures, and what it does not
 
@@ -135,6 +135,20 @@ The distributions were judged usable and **were not changed** after the pilot.
 
 Known limitation: probabilities come back with two decimals, so the smallest measurable change in one call is 1 percentage point.
 
+## Analysis order (added before any main result was looked at, on a reviewer's note; it fixes order, not metrics)
+
+1. Completeness: the expected calls against the successful calls; permanent failures and retries by phase.
+2. Model integrity: every successful response's `model` field starts with `typesafe/jev-1.13`.
+3. Pair integrity: for every applicant, the five financial fields are byte-identical across A–E. F differs only in the DTI field, by exactly ±20 points. B, C and D differ from A only by the `ZIP code` field; E differs only by the batch field.
+4. Noise floor (section 5).
+5. Negative control: E against A.
+6. ZIP conditions: B, C and D against A, plus the T4/T5 contrasts.
+7. Positive control: F against A.
+8. Only then: effect-size comparisons across 4–7, the policy-instruction comparison (T6), and the preregistered borderline subgroup. No other subgroup is promoted to a finding.
+
+The core table reports, for each manipulation (exact repeat / meaningless field / each ZIP / the DTI change), the mean |ΔP(APPROVE)| in percentage points with its 95% CI, and the selected-action flip rate.
+
 ## Deviations
 
-(none yet)
+1. 2026-10-01T04:56:03Z, during the noise phase. 7 of the 1,500 noise calls returned HTTP 520 (a Cloudflare edge error) and were not retried, because 520 was missing from the client's retry list. 520 to 523 were added to the list (`src/jev_client.py`) before the main phase started. The 7 failed keys are re-sent unchanged after the main phase. Their failure records stay in `results/raw/noise.jsonl`. This changes no condition, metric, test or threshold.
+2. 2026-10-01T04:56:03Z, analysis code only. Guards were added to `src/analyze.py` so it can run on a partial log, which is used to debug the code while calls are in flight. With complete data the output is identical. No metric, test or threshold changed.
