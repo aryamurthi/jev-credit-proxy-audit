@@ -6,6 +6,7 @@ Supported by this study:
 - The demographic-contrast and economic-contrast ZIPs did not differ measurably from the reference ZIP (+0.02 pp each, CIs include 0).
 - An explicit "use only financial information" instruction halved sensitivity to every extra field tested, not just geography.
 - Fewer than 1 in 100 decisions changed when a ZIP was added.
+- Adding a ZIP lowered approval slightly for strong profiles (about 1 pp) and raised it slightly for borderline ones (about 1 pp); all under the preregistered 2 pp bar.
 
 Do NOT claim:
 - "Jev discriminates" or "Jev does not discriminate." The study tests three ZIPs in one region on synthetic profiles.
@@ -16,3 +17,6 @@ Do NOT claim:
 - That the result generalizes to other ZIPs, regions, question wordings, models or Jev versions.
 - That this was the first bias audit of Jev (see pawarbi/jev-bias-audit).
 - That option order never matters for Jev. Here it barely did, under this counterbalanced, typed-option design.
+- "I didn't find ZIP sensitivity" without the qualifier: three ZIPs, one region, and adding any ZIP did move probabilities by about 1 pp.
+- That the policy instruction left the debt response "unchanged": the average held, but the strata moved.
+- That the analysis code was preregistered. The metrics and tests were; the code was written during the run.

@@ -4,7 +4,7 @@ A counterfactual study of Jev in synthetic credit decisions.
 
 This study asks one question. When the financial information is held fixed, does adding a ZIP code, or any other field that should not matter, move TypeSafe's Jev decision model (`typesafe/jev-1.13`) between APPROVE, MANUAL_REVIEW and DENY?
 
-**Result, in one line.** Adding a ZIP code moved P(APPROVE) by about 1 percentage point on average. That is less than a meaningless field moved it (1.2 pp) and about 1/14 of what a real debt-to-income change did (13.3 pp). Which of the three ZIPs was added made no measurable difference. See [`results_summary.md`](results_summary.md).
+**Result, in one line.** Adding a ZIP code moved P(APPROVE) by about 1 percentage point on average, slightly less than a meaningless field did (1.2 pp) and about 1/14 of what a real debt-to-income change did (13.3 pp). Which of the three ZIPs (all in one region) was added made no measurable difference. See [`results_summary.md`](results_summary.md).
 
 > **Important limitation.** Jev is a general decision model, configured here by a question and three option definitions. It was not trained on loan-performance data. This study does **not** measure whether Jev is an accurate credit-risk model, and it says nothing about how a lender using Jev would behave. It measures whether Jev's output distribution moves when controlled parts of its input change. All applicants are synthetic. No real person's data is used.
 
@@ -45,8 +45,12 @@ This study asks one question. When the financial information is held fixed, does
 
 - **Demographic contrast** (63034 − 63011): +0.02 pp, CI −0.03 to +0.07.
 - **Economic contrast** (63080 − 63011): +0.02 pp, CI −0.02 to +0.07.
-- **The "ignore geography" instruction** halved the shift from every extra field, including the meaningless one: ZIPs 0.98 → 0.48 pp, meaningless field 1.17 → 0.52 pp. It left the DTI response unchanged (13.3 → 13.6 pp).
-- **Borderline profiles** moved most (1.65 pp for every ZIP), but the meaningless field moved them just as much.
+- **The "ignore geography" instruction** halved the average shift from every extra field, including the meaningless one: ZIPs 0.97 → 0.49 pp (mean of three), meaningless field 1.17 → 0.52 pp.
+  - The average DTI response stayed similar (13.3 → 13.6 pp), but it moved within strata: strong 17.8 → 14.5 pp, borderline 19.9 → 23.0 pp, weak-profile flips 19.7% → 7.3%.
+  - Decision flips from extra fields rose slightly (0.4–0.6% → 0.7–0.8%).
+  - exp1 and exp2 ran about 12 minutes apart, so this comparison is also confounded with run time.
+- **Direction:** adding a ZIP lowered approval for strong profiles (about −1.0 pp) and raised it for borderline ones (about +1.1 pp). More applicants moved down than up; the sign test is significant. The size is still under the preregistered 2 pp bar.
+- **Borderline profiles** moved most (1.65 pp for every ZIP). The meaningless field moved them by the same amount but in the other direction on average (−0.4 pp), which was found after the fact and is exploratory.
 - **Weak profiles** sit at P(APPROVE) = 0 in every condition.
 
 Full tables, tests and caveats: [`results_summary.md`](results_summary.md), [`analysis/statistics.json`](analysis/statistics.json), [`analysis/summary.csv`](analysis/summary.csv).
@@ -106,7 +110,9 @@ The runner is resumable: completed calls are skipped, and failures are logged an
 ## Known limitations
 
 - **Precision:** probabilities come back with two decimals, so one call cannot show a change smaller than 1 pp.
-- **Floor:** weak profiles sit at P(APPROVE) = 0 throughout, and 46% of all baselines are ≤ 0.01. The primary metric cannot move there. DENY and MANUAL_REVIEW changes are reported for them.
+- **Floor and ceiling:** weak profiles sit at P(APPROVE) = 0 throughout. 46% of all baselines are ≤ 0.01, and 14% are ≥ 0.99. The primary metric can move little there. DENY and MANUAL_REVIEW changes are reported for those applicants.
+- **The analysis code was not preregistered.** The metrics, tests and thresholds were; `analyze.py` was written during the run. See the deviations in PREREGISTRATION.md.
+- **Run order:** exp1 ran before exp2, and the conditions ran in a fixed order, so the instruction comparison is confounded with run time.
 - **Narrow ZIP sample:** three ZIPs from one region. The results say nothing about other ZIPs or regions.
 - **Logged key order:** the raw logs store each request with sorted JSON keys. The values are exact, but the field order shown in the log is not the order sent. The order of the options sent is recorded in each record's `option_order` field; the client sends the request body unsorted.
 - **Fixed model version:** Jev was used as configured by one question wording. Other wordings, models or versions may behave differently.

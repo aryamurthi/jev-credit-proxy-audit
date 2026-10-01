@@ -58,6 +58,7 @@ def examples(cells):
     w = wide(cells, "exp1_unconstrained")
     d = (w["C_zipB"] - w["A_noZIP"]).abs().dropna().reset_index()
     d.columns = ["applicant_id", "stratum", "absd"]
+    d["absd"] = d.absd.round(9)  # equal values must compare equal for the lowest-id tie rule
     d = d.sort_values(["absd", "applicant_id"]).reset_index(drop=True)
     picks = {}
     for label, q in (("median", 0.5), ("90th percentile", 0.9)):

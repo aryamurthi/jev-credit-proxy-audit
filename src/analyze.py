@@ -57,7 +57,9 @@ def load_calls():
 
 def order_average(calls):
     g = calls.groupby(["phase", "experiment", "applicant_id", "stratum", "condition", "repeat"])
-    cells = g[[f"p_{k}" for k in KS] + ["confidence"]].mean()
+    # Each probability has two decimals, so the mean of three is a multiple of 1/300; rounding to 9 decimals removes
+    # floating-point residue so that equal values compare equal (ties, zero differences, the 0.99 ceiling).
+    cells = g[[f"p_{k}" for k in KS] + ["confidence"]].mean().round(9)
     cells["n_orders"] = g.size()
     cells = cells.reset_index()
     complete = cells[cells.n_orders == 3].copy()
@@ -80,7 +82,7 @@ def boot_ci(x, rng):
 
 
 def paired_test(d, rng):
-    d = np.asarray(d, float)
+    d = np.round(np.asarray(d, float), 9)
     out = {"n": int(len(d)), "mean": float(d.mean()), "median": float(np.median(d)), "sd": float(d.std(ddof=1)),
            "ci95": boot_ci(d, rng), "dz": float(d.mean() / d.std(ddof=1)) if d.std(ddof=1) > 0 else 0.0,
            "n_zero": int((d == 0).sum())}
@@ -89,6 +91,9 @@ def paired_test(d, rng):
     else:
         out["wilcoxon_p"] = float(stats.wilcoxon(d, zero_method="wilcox").pvalue)
         out["wilcoxon_p_pratt"] = float(stats.wilcoxon(d, zero_method="pratt").pvalue)
+        pos, neg = int((d > 0).sum()), int((d < 0).sum())
+        out.update({"n_positive": pos, "n_negative": neg,
+                    "sign_test_p": float(stats.binomtest(pos, pos + neg, 0.5).pvalue) if pos + neg else 1.0})
     return out
 
 
@@ -110,6 +115,7 @@ def wide(cells, exp):
 
 
 def describe(delta, flips, dconf, rng):
+    delta = np.round(np.asarray(delta, float), 9)
     a = np.abs(delta)
     return {"n": int(len(delta)), "signed_mean": float(delta.mean()), "signed_median": float(np.median(delta)),
             "signed_ci95": boot_ci(delta, rng), "sd": float(delta.std(ddof=1)),

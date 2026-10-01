@@ -150,5 +150,21 @@ The core table reports, for each manipulation (exact repeat / meaningless field 
 
 ## Deviations
 
-1. 2026-10-01T04:56:03Z, during the noise phase. 7 of the 1,500 noise calls returned HTTP 520 (a Cloudflare edge error) and were not retried, because 520 was missing from the client's retry list. 520 to 523 were added to the list (`src/jev_client.py`) before the main phase started. The 7 failed keys are re-sent unchanged after the main phase. Their failure records stay in `results/raw/noise.jsonl`. This changes no condition, metric, test or threshold.
-2. 2026-10-01T04:56:03Z, analysis code only. Guards were added to `src/analyze.py` so it can run on a partial log, which is used to debug the code while calls are in flight. With complete data the output is identical. No metric, test or threshold changed.
+Corrected at 2026-10-01T05:32:13Z after an independent review (run record review-verdict.md), which found the first two entries inaccurate. The original wording is in git history (commit 740a760).
+
+1. **Retry list (process).** 7 of the 1,500 noise calls returned HTTP 520 (a Cloudflare edge error) and were not retried, because 520 was missing from the client's retry list.
+   - 520 to 523 were added to `src/jev_client.py`. The file was modified at 04:54:48Z, during the noise phase and 9 s before the main phase began (04:54:57Z). The main phase therefore ran with the fix.
+   - This entry was written at 04:56:03Z, after the main phase had started. Its earlier text gave that writing time as if it were the time of the fix.
+   - The 7 keys were re-sent unchanged after the main phase and all succeeded. Their failure records stay in `results/raw/noise.jsonl`.
+2. **The analysis code was not part of the preregistration.** `src/analyze.py` and `src/plots.py` are not in commit 373a94f.
+   - They were written while the noise and main phases ran.
+   - They were first committed at 05:07:58Z (740a760). By then all exp1 data (T1–T5) had been collected and exp2 was in progress.
+   - The script was run once on a partial log (about 04:56Z) to debug it. That run printed counts and the noise floor only. No comparison was inspected then.
+   - What was preregistered is the text of sections 4–9: metrics, tests, thresholds, conditions and the example rule. The code implements that text.
+   - The earlier entry described this only as "guards added", and the status line said no main-phase result had been analysed. Both understated it.
+   - Commit 6476e6e then added integrity checks and the core table (analysis order steps 1–3 and the table named in the "Analysis order" section). These are additions that report data quality; no metric was changed.
+3. **Post-review numerical corrections** (2026-10-01T05:32:13Z).
+   - Order-averaged probabilities are now rounded to 9 decimals before any comparison. Floating-point residue had made equal values unequal. That affected the Wilcoxon ranks and zero-dropping, the 0.99 ceiling share (reported as 0.0, actually 0.140) and the example-pick tie rule. The preregistered 90th-percentile example changes from M0432 to M0216, and the median example from M0002 to M0088.
+   - The preregistered Pratt variant and a sign test are now reported beside the Wilcoxon test.
+   - No metric, test, threshold or condition changed. The Holm-adjusted conclusions are unchanged.
+4. **Design caveat, disclosed after the fact.** The main phase ran exp1 in full before exp2, and the conditions in a fixed order within each applicant. So the instruction comparison (T6) is confounded with run time (about 12 minutes apart). The noise floor bounds ordinary run-to-run variation, but it was measured in one block at the start.

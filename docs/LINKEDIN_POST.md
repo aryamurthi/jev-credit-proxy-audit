@@ -1,6 +1,6 @@
 # Suggested LinkedIn post
 
-I expected to find ZIP-code sensitivity in an AI decision model. I didn't, and the way I checked is the useful part.
+I tested whether a ZIP code moves an AI decision model's credit decisions. For three ZIPs in one region, which ZIP it was made no measurable difference. How I checked is the useful part.
 
 I took TypeSafe's Jev, a model that picks between options and reports a probability for each, and asked it to triage 1,000 synthetic credit applications: approve, send to a human, or deny.
 
@@ -15,9 +15,9 @@ Average change in the approval probability:
 - any of the three ZIPs: 1.0 point
 - debt-to-income change: 13.3 points
 
-Which ZIP made no measurable difference (about 0.02 points between them). Telling the model to ignore geography halved the wobble from any extra field and left its response to debt untouched.
+Which of the three ZIPs made no measurable difference (about 0.02 points between them). Adding any ZIP nudged strong applicants down about a point and borderline ones up about a point. Telling the model to ignore geography halved the wobble from any extra field; its average response to debt stayed about the same.
 
-What this does not show: that Jev is a good credit model (it was not trained for that), or how any lender would behave. All applicants are synthetic.
+What this does not show: that Jev is a good credit model (it was not trained for that), how any lender would behave, or anything about ZIPs outside these three. All applicants are synthetic.
 
 I wrote the plan down before running the main test, kept every raw response, and the whole run cost under a dollar. Code and data: [repo link]
 
