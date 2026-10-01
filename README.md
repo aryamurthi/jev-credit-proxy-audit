@@ -10,6 +10,8 @@ This study asks one question. When the financial information is held fixed, does
 
 ![Core comparison](figures/controls_comparison.png)
 
+A 74-second walkthrough of the study: [`media/jev-credit-audit.mp4`](media/jev-credit-audit.mp4) (1080×1350), with a square cut at [`media/jev-credit-audit-square.mp4`](media/jev-credit-audit-square.mp4).
+
 ## Design at a glance
 
 - **Model:** `typesafe/jev-1.13` through OpenRouter's Decisions API (`POST https://openrouter.ai/api/alpha/decisions`), pinned, with fallbacks disabled. Every one of the 37,800 responses reported `typesafe/jev-1.13-20260917`.
@@ -84,7 +86,8 @@ jev-credit-proxy-audit/
   analysis/   summary.csv  statistics.json  example_picks.json
   figures/    probability_shift_distribution.png  paired_zip_effects.png  effect_by_credit_strength.png
               controls_comparison.png  policy_instruction_comparison.png  confidence_changes.png
-  docs/       STORYBOARD.md  LINKEDIN_POST.md  CLAIMS.md
+  docs/       STORYBOARD.md  LINKEDIN_POST.md  CLAIMS.md  REVIEWS.md
+  media/      jev-credit-audit.mp4  jev-credit-audit-square.mp4
 ```
 
 ## Reproduce

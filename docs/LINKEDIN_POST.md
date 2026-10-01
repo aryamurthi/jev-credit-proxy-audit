@@ -19,6 +19,6 @@ Which of the three ZIPs made no measurable difference (about 0.02 points between
 
 What this does not show: that Jev is a good credit model (it was not trained for that), how any lender would behave, or anything about ZIPs outside these three. All applicants are synthetic.
 
-I wrote the plan down before running the main test, kept every raw response, and the whole run cost under a dollar. Code and data: [repo link]
+I wrote the plan down before running the main test, kept every raw response, and the whole run cost under a dollar. Code and data: https://github.com/aryamurthi/jev-credit-proxy-audit
 
 #AI #ResponsibleAI #BuildInPublic

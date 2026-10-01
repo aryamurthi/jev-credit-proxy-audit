@@ -30,4 +30,4 @@ Caption: "With an instruction to use only financial information (a second run, m
 
 **Scene 7 (80-92 s). Conclusion.**
 "I went looking for proxy sensitivity. Across 1,000 matched applicants, adding a ZIP shifted the approval probability by about 1 point, slightly less than a meaningless label did, and which of three ZIPs made no measurable difference. The final choice changed for fewer than 1 in 100."
-Small print: "Synthetic applicants. Not a credit-risk model. Three ZIPs, one region. Code and every raw response: [repo link]."
+Small print: "Synthetic applicants. Not a credit-risk model. Three ZIPs, one region. Code and every raw response: github.com/aryamurthi/jev-credit-proxy-audit."
