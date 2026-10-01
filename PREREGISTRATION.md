@@ -2,7 +2,7 @@
 
 A counterfactual study of Jev in synthetic credit decisions.
 
-Written 2026-10-01, after the pilot and before any call of the noise or main phases. **Status at 2026-10-01T05:07:58Z: the noise phase is finished, and the main phase is IN PROGRESS. No main-phase result has been analysed.** It is committed to git before those phases run. The commit hash is the timestamp of record. Any change after that commit is listed under "Deviations" at the end, with its time and reason.
+Written 2026-10-01, after the pilot and before any call of the noise or main phases. **Status, recorded at 2026-10-01T05:07:58Z: the noise phase is finished, and the main phase is IN PROGRESS. No main-phase result has been analysed.** This status line is corrected by Deviation 2 below. It is committed to git before those phases run. The commit hash is the timestamp of record. Any change after that commit is listed under "Deviations" at the end, with its time and reason.
 
 ## 1. What this measures, and what it does not
 
@@ -164,7 +164,11 @@ Corrected at 2026-10-01T05:32:13Z after an independent review (run record review
    - The earlier entry described this only as "guards added", and the status line said no main-phase result had been analysed. Both understated it.
    - Commit 6476e6e then added integrity checks and the core table (analysis order steps 1–3 and the table named in the "Analysis order" section). These are additions that report data quality; no metric was changed.
 3. **Post-review numerical corrections** (2026-10-01T05:32:13Z).
-   - Order-averaged probabilities are now rounded to 9 decimals before any comparison. Floating-point residue had made equal values unequal. That affected the Wilcoxon ranks and zero-dropping, the 0.99 ceiling share (reported as 0.0, actually 0.140) and the example-pick tie rule. The preregistered 90th-percentile example changes from M0432 to M0216, and the median example from M0002 to M0088.
+   - Every comparison now rounds the difference to 6 decimals after subtracting. Order-averaged probabilities are multiples of 1/300 (1/900 for T6), and none of these sits near a 6-decimal rounding boundary, so equal values compare equal.
+   - Floating-point residue had broken ties in the Wilcoxon ranks and zero-dropping, the 0.99 ceiling share (reported as 0.0, actually 0.140), the selected-action tie-break and the example-pick tie rule.
+   - A second independent review checked the result against exact integer arithmetic: zero counts, ranks and the example picks now match.
+   - The preregistered 90th-percentile example is M0216 (was M0432). The median example stays M0002.
+   - A first attempt (rounding the cells to 9 or 6 decimals before subtracting) was itself inexact, and was caught by that review.
    - The preregistered Pratt variant and a sign test are now reported beside the Wilcoxon test.
    - No metric, test, threshold or condition changed. The Holm-adjusted conclusions are unchanged.
 4. **Design caveat, disclosed after the fact.** The main phase ran exp1 in full before exp2, and the conditions in a fixed order within each applicant. So the instruction comparison (T6) is confounded with run time (about 12 minutes apart). The noise floor bounds ordinary run-to-run variation, but it was measured in one block at the start.

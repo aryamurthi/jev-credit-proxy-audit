@@ -1,4 +1,5 @@
-"""Analysis exactly as preregistered in PREREGISTRATION.md (commit 373a94f). Reads only results/raw/*.jsonl.
+"""Implements the metrics and tests preregistered in PREREGISTRATION.md (commit 373a94f). This code itself was
+written during the run and is not part of the preregistration (see its Deviations). Reads only results/raw/*.jsonl.
 
 Outputs:
   results/processed/calls.csv        one row per successful call (latest ok record per key)
@@ -57,17 +58,19 @@ def load_calls():
 
 def order_average(calls):
     g = calls.groupby(["phase", "experiment", "applicant_id", "stratum", "condition", "repeat"])
-    # Each probability has two decimals, so the mean of three is a multiple of 1/300; rounding to 9 decimals removes
-    # floating-point residue so that equal values compare equal (ties, zero differences, the 0.99 ceiling).
-    cells = g[[f"p_{k}" for k in KS] + ["confidence"]].mean().round(9)
+    # Each probability has two decimals, so the mean of three is a multiple of 1/300. Cells keep the full float mean;
+    # every comparison rounds to 6 decimals AFTER subtracting (a multiple of 1/300 or 1/900 never sits near a 6-decimal
+    # rounding boundary), so equal values compare equal (ties, zero differences, the 0.99 ceiling, the tie-break).
+    cells = g[[f"p_{k}" for k in KS] + ["confidence"]].mean()
     cells["n_orders"] = g.size()
     cells = cells.reset_index()
     complete = cells[cells.n_orders == 3].copy()
 
     def pick(row):
-        best = max(row[f"p_{k}"] for k in KS)
+        vals = {k: round(row[f"p_{k}"], 6) for k in KS}
+        best = max(vals.values())
         for k in TIE_ORDER:
-            if row[f"p_{k}"] == best:
+            if vals[k] == best:
                 return k
     complete["selected"] = complete.apply(pick, axis=1)
     return complete, int((cells.n_orders < 3).sum())
@@ -82,7 +85,7 @@ def boot_ci(x, rng):
 
 
 def paired_test(d, rng):
-    d = np.round(np.asarray(d, float), 9)
+    d = np.round(np.asarray(d, float), 6)
     out = {"n": int(len(d)), "mean": float(d.mean()), "median": float(np.median(d)), "sd": float(d.std(ddof=1)),
            "ci95": boot_ci(d, rng), "dz": float(d.mean() / d.std(ddof=1)) if d.std(ddof=1) > 0 else 0.0,
            "n_zero": int((d == 0).sum())}
@@ -115,7 +118,7 @@ def wide(cells, exp):
 
 
 def describe(delta, flips, dconf, rng):
-    delta = np.round(np.asarray(delta, float), 9)
+    delta = np.round(np.asarray(delta, float), 6)
     a = np.abs(delta)
     return {"n": int(len(delta)), "signed_mean": float(delta.mean()), "signed_median": float(np.median(delta)),
             "signed_ci95": boot_ci(delta, rng), "sd": float(delta.std(ddof=1)),
@@ -155,8 +158,8 @@ def noise_floor(cells, rng):
         pa, s, cf = g.p_APPROVE.to_numpy(), g.selected.to_numpy(), g.confidence.to_numpy()
         app_d = []
         for i, j in combinations(range(len(g)), 2):
-            diffs.append(abs(pa[i] - pa[j]))
-            app_d.append(abs(pa[i] - pa[j]))
+            diffs.append(round(abs(pa[i] - pa[j]), 6))
+            app_d.append(round(abs(pa[i] - pa[j]), 6))
             flips.append(s[i] != s[j])
             dconf.append(abs(cf[i] - cf[j]))
         per_app[aid] = float(np.mean(app_d))
@@ -352,8 +355,8 @@ def main():
         "primary_metric_exp1": prim_metric("exp1_unconstrained"),
         "primary_metric_exp2": prim_metric("exp2_policy"),
         "stratum_abs_mean_dP_APPROVE": {f"{r.experiment} {r.comparison} {r.stratum}": r.abs_mean for r in strata_abs.itertuples()},
-        "baseline_floor_ceiling_exp1": {"share_P_APPROVE_le_0.01": float((base <= 0.01).mean()),
-                                        "share_P_APPROVE_ge_0.99": float((base >= 0.99).mean())},
+        "baseline_floor_ceiling_exp1": {"share_P_APPROVE_le_0.01": float((base.round(6) <= 0.01).mean()),
+                                        "share_P_APPROVE_ge_0.99": float((base.round(6) >= 0.99).mean())},
         "order_effects": order_effects(calls),
     }
     with open(os.path.join(ROOT, "analysis", "statistics.json"), "w") as f:

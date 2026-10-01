@@ -20,7 +20,7 @@ The explicit "use only financial information; ignore geography" instruction halv
 - ZIPs: 0.97 → 0.49 pp (mean of the three).
 - Batch label: 1.17 → 0.52 pp.
 
-It did not halve the response to DTI on average (13.3 → 13.6 pp), but it changed that response within strata. Strong applicants went from 17.8 to 14.5 pp, borderline from 19.9 to 23.0 pp, and weak-profile decision flips fell from 19.7% to 7.3%. It also slightly raised decision flips from extra fields (ZIPs 0.4–0.6% → 0.7–0.8%).
+It did not halve the response to DTI on average (13.3 → 13.6 pp), but it changed that response within strata. Strong applicants went from 17.8 to 14.5 pp, borderline from 19.9 to 23.0 pp, and weak-profile decision flips fell from 19.7% to 7.3%. It also slightly raised decision flips from extra fields: ZIPs 0.4–0.6% → 0.7–0.8%, the batch label 0.3% → 0.9%. exp1 and exp2 ran one after the other, about 12 minutes apart.
 
 None of the six preregistered primary tests met the preregistered bar for a practically meaningful shift: a 95% CI excluding 0 **and** a magnitude of at least 2 pp.
 
@@ -43,14 +43,14 @@ A decision flip is a change of the order-averaged top action against the no-ZIP 
 
 | Test | Mean | 95% CI | up / down / zero | Wilcoxon p | Pratt p | Sign-test p | Holm p | Meaningful? |
 |---|---|---|---|---|---|---|---|---|
-| T1 P(APPROVE): 63011 − no ZIP | +0.14 pp | +0.04 to +0.26 | 208 / 351 / 441 | 0.40 | 7e−5 | 2e−9 | 1.00 | no |
+| T1 P(APPROVE): 63011 − no ZIP | +0.14 pp | +0.04 to +0.26 | 208 / 351 / 441 | 0.41 | 7e−5 | 2e−9 | 1.00 | no |
 | T2 P(APPROVE): 63034 − no ZIP | +0.16 pp | +0.06 to +0.27 | 212 / 345 / 443 | 0.82 | 5e−4 | 2e−8 | 1.00 | no |
-| T3 P(APPROVE): 63080 − no ZIP | +0.17 pp | +0.06 to +0.27 | 213 / 348 / 439 | 0.58 | 3e−4 | 1e−8 | 1.00 | no |
-| T4 demographic contrast: 63034 − 63011 | +0.02 pp | −0.03 to +0.07 | 221 / 200 / 579 | 0.08 | 0.20 | 0.33 | 0.40 | no |
-| T5 economic contrast: 63080 − 63011 | +0.02 pp | −0.02 to +0.07 | 211 / 205 / 584 | 0.26 | 0.58 | 0.81 | 1.00 | no |
-| T6 policy instruction: mean abs ZIP shift, exp1 − exp2 | +0.48 pp | +0.41 to +0.55 | 458 / 140 / 402 | 4e−37 | 2e−40 | 2e−40 | 2e−36 | no (below 2 pp) |
+| T3 P(APPROVE): 63080 − no ZIP | +0.17 pp | +0.06 to +0.27 | 213 / 348 / 439 | 0.59 | 3e−4 | 1e−8 | 1.00 | no |
+| T4 demographic contrast: 63034 − 63011 | +0.02 pp | −0.03 to +0.07 | 221 / 200 / 579 | 0.13 | 0.23 | 0.33 | 0.65 | no |
+| T5 economic contrast: 63080 − 63011 | +0.02 pp | −0.02 to +0.07 | 211 / 205 / 584 | 0.28 | 0.59 | 0.81 | 1.00 | no |
+| T6 policy instruction: mean abs ZIP shift, exp1 − exp2 | +0.48 pp | +0.41 to +0.55 | 456 / 140 / 404 | 5e−37 | 3e−40 | 5e−40 | 3e−36 | no (below 2 pp) |
 
-**Reading T1–T3.** The mean rises slightly, but more applicants move down than up. A small number of large increases among borderline profiles outweigh many 1-point decreases among strong ones.
+**Reading T1–T3.** The mean rises slightly, but more applicants move down than up. The increases are fewer but larger: 208 applicants rose by +2.70 pp on average, mostly borderline profiles, against 351 that fell by −1.19 pp, mostly strong ones.
 - With zeros dropped, the Wilcoxon test is not significant.
 - The preregistered Pratt check and a sign test are significant.
 - So adding a ZIP does change P(APPROVE) systematically, but in different directions for different applicants, and by under 2 pp.
@@ -69,7 +69,7 @@ Mean abs ΔP(APPROVE) / signed mean, unconstrained instructions:
 | ZIP 63080 | 1.03 / −1.02 pp | 1.65 / +1.18 pp | 0 |
 | DTI ±20 | 17.75 / −17.75 pp | 19.85 / +3.79 pp | 0 |
 
-- **Borderline:** the preregistered hypothesis holds: ZIP shifts are largest among borderline profiles (1.65 pp). The meaningless field moves borderline profiles by the same amount, but in the other direction on average. Every ZIP raises borderline approval by about 1.1 pp, while the batch label lowers it by 0.4 pp. So the size of the movement is not specific to ZIPs, but its direction among borderline profiles is. This was found after the fact and is exploratory.
+- **Borderline:** the preregistered hypothesis holds: ZIP shifts are largest among borderline profiles (1.65 pp). The meaningless field moves borderline profiles by the same amount, but in the other direction on average. Every ZIP raises borderline approval by about 1.1 pp, while the batch label lowers it by 0.4 pp. So the size of the movement is not specific to ZIPs. Its direction among borderline profiles differs from the one meaningless field tested; one control field cannot show that the direction is specific to ZIPs. This was found after the fact and is exploratory.
 - **Weak:** P(APPROVE) is 0 in every condition, a floor. On DENY and MANUAL_REVIEW, adding any ZIP moved about 1.9 pp from DENY to MANUAL_REVIEW, the same for all three ZIPs, against 1.3 pp for the meaningless field. No decision flipped. This comparison is secondary.
 
 ## Other findings

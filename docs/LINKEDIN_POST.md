@@ -15,7 +15,7 @@ Average change in the approval probability:
 - any of the three ZIPs: 1.0 point
 - debt-to-income change: 13.3 points
 
-Which of the three ZIPs made no measurable difference (about 0.02 points between them). Adding any ZIP nudged strong applicants down about a point and borderline ones up about a point. Telling the model to ignore geography halved the wobble from any extra field; its average response to debt stayed about the same.
+Which of the three ZIPs made no measurable difference (about 0.02 points between them). Adding any ZIP nudged strong applicants down about a point and borderline ones up about a point. In a second run with an instruction to ignore geography, the wobble from any extra field halved (the two runs were minutes apart, so take that as a lead, not a proof); its average response to debt stayed about the same.
 
 What this does not show: that Jev is a good credit model (it was not trained for that), how any lender would behave, or anything about ZIPs outside these three. All applicants are synthetic.
 

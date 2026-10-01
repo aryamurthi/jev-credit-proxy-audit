@@ -47,7 +47,7 @@ This study asks one question. When the financial information is held fixed, does
 - **Economic contrast** (63080 − 63011): +0.02 pp, CI −0.02 to +0.07.
 - **The "ignore geography" instruction** halved the average shift from every extra field, including the meaningless one: ZIPs 0.97 → 0.49 pp (mean of three), meaningless field 1.17 → 0.52 pp.
   - The average DTI response stayed similar (13.3 → 13.6 pp), but it moved within strata: strong 17.8 → 14.5 pp, borderline 19.9 → 23.0 pp, weak-profile flips 19.7% → 7.3%.
-  - Decision flips from extra fields rose slightly (0.4–0.6% → 0.7–0.8%).
+  - Decision flips from extra fields rose slightly: ZIPs 0.4–0.6% → 0.7–0.8%, the batch label 0.3% → 0.9%.
   - exp1 and exp2 ran about 12 minutes apart, so this comparison is also confounded with run time.
 - **Direction:** adding a ZIP lowered approval for strong profiles (about −1.0 pp) and raised it for borderline ones (about +1.1 pp). More applicants moved down than up; the sign test is significant. The size is still under the preregistered 2 pp bar.
 - **Borderline profiles** moved most (1.65 pp for every ZIP). The meaningless field moved them by the same amount but in the other direction on average (−0.4 pp), which was found after the fact and is exploratory.

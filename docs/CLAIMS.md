@@ -4,7 +4,7 @@ Supported by this study:
 - Holding financial fields identical, adding one of three ZIP codes shifted Jev's approval probability by about 1 percentage point on average (95% CIs within 0.87-1.07 pp).
 - That is above repeat-call noise (0.31 pp), below the shift from a meaningless field (1.17 pp), and about 1/14 of a 20-point DTI change (13.3 pp).
 - The demographic-contrast and economic-contrast ZIPs did not differ measurably from the reference ZIP (+0.02 pp each, CIs include 0).
-- An explicit "use only financial information" instruction halved sensitivity to every extra field tested, not just geography.
+- An explicit "use only financial information" instruction, run as a second batch about 12 minutes after the first, coincided with a halving of sensitivity to every extra field tested, not just geography. Run time is a confound.
 - Fewer than 1 in 100 decisions changed when a ZIP was added.
 - Adding a ZIP lowered approval slightly for strong profiles (about 1 pp) and raised it slightly for borderline ones (about 1 pp); all under the preregistered 2 pp bar.
 
